@@ -1,9 +1,42 @@
-
+.login-formulaire{
+  margin-top: 10%;
+}
 .centered-form{
 	margin-top: 60px;
 }
 
 .centered-form .panel{
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.5);
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+.login-sous-titre{
+  margin-left: 1%;
+}
+
+.login-fond{
+  background-image: url("/img/couple-login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -72px;
+}
+.login-btn-valider{
+  opacity: 0.5;
+  background-color: pink;
+}
+
+.login-btn-valider:hover{
+  opacity: 1;
+
+}
+.login-head-formu{
+  opacity: 0.5;
+}
+
+.login-text-putaclic{
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 3px black;
+  margin-top: 5%;
 }
