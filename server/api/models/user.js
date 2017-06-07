@@ -25,6 +25,22 @@ const userSchema = new mongoose.Schema({
     isAdmin: {
         type: Boolean,
         default: false
+    },
+    speudo: {
+      type: String,
+      required: true
+    },
+    text: {
+      type: String,
+    },
+    age: {
+      type: Number,
+    },
+    sexeUser: {
+      type: Boolean,
+    },
+    sexeSearch: {
+      type: Boolean,
     }
 });
 
