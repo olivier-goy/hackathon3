@@ -12,9 +12,9 @@
               <input type="email" name="email" id="email" ng-model="user.email" class="form-control hvr-grow input-sm" required placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="passsword" name="email" id="password" ng-model="user.password" class="form-control hvr-grow input-sm" required placeholder="Password">
+              <input type="password" name="email" id="password" ng-model="user.password" class="form-control hvr-grow input-sm" required placeholder="Password">
             </div>
-            <input type="submit" class="btn btn-info btn-block hvr-grow login-btn-valider" style="background-color:#f922e7">
+            <input type="submit" class="btn btn-info btn-block hvr-grow login-btn-valider" ng-click="login()" style="background-color:#f922e7">
           </form>
         </div>
       </div>
