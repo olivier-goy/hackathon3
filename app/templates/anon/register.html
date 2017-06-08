@@ -9,7 +9,7 @@
           <form role="form" name="loginForm" novalidate ng-submit="register()">
             <div ng-repeat="error in errors">{{error.error}}</div>
             <div class="form-group">
-              <input type="Pseudo" name="speudo" id="email" ng-model="user.speudo" class="form-control hvr-grow input-sm" required placeholder="Speudo">
+              <input type="text" name="speudo" id="pseudo" ng-model="user.speudo" class="form-control hvr-grow input-sm" required placeholder="Speudo">
             </div>
             <div class="form-group">
               <input type="email" name="email" id="email" ng-model="user.email" class="form-control hvr-grow input-sm" placeholder="Email Address">
