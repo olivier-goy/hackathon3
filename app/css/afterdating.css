@@ -1,0 +1,33 @@
+.after-choise{
+  margin-top: 3%;
+}
+.text-acroche-speed{
+  margin-top: 1%;
+  margin-left: -3%;
+}
+.speed-img-no{
+  margin-top: 3%;
+}
+.bloc-user{
+color: white;
+}
+.checkmark{
+  margin-top: 4%;
+}
+.bordure-user{
+  border:2px solid black;
+  border-radius: 15px 15px 15px 15px;
+
+  -webkit-box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.75);
+}
+.soie{
+  background-image: url('/img/soie.jpg');
+  background-attachment: fixed;
+
+}
+.titre-select{
+  color: white;
+  text-shadow: 0 0 3px red;
+}
