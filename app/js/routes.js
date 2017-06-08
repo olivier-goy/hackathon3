@@ -63,6 +63,15 @@ angular.module('app')
                     }
                 }
             })
+            .state('user.afterDating', {
+                url: '/afterDating',
+                views: {
+                    'content@': {
+                        templateUrl: 'user/afterDating.html',
+                        controller: 'AfterdatingController'
+                    }
+                }
+            })
             .state('user.profile', {
                 url: '/profile',
                 views: {
