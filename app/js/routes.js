@@ -63,6 +63,33 @@ angular.module('app')
                     }
                 }
             })
+            .state('user.afterDating', {
+                url: '/afterDating',
+                views: {
+                    'content@': {
+                        templateUrl: 'user/afterDating.html',
+                        controller: 'AfterdatingController'
+                    }
+                }
+            })
+            .state('user.main', {
+                url: '/main',
+                views: {
+                    'content@': {
+                        templateUrl: 'user/main.html',
+                        controller: 'MainUserController'
+                    }
+                }
+            })
+            .state('user.webcam', {
+                url: '/webcam',
+                views: {
+                    'content@': {
+                        templateUrl: 'user/webcam.html',
+                        controller: 'WebcamController'
+                    }
+                }
+            })
             .state('user.profile', {
                 url: '/profile',
                 views: {

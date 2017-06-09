@@ -1,0 +1,49 @@
+.home-fond{
+  background-image: url("/img/couple-home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-top: -30px;
+}
+.text-fond{
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 3px pink;
+  margin-top: 10%;
+}
+.home-bouton {
+  background: #d80ce3;
+  background-image: -webkit-linear-gradient(top, #d80ce3, #b320b3);
+  background-image: -moz-linear-gradient(top, #d80ce3, #b320b3);
+  background-image: -ms-linear-gradient(top, #d80ce3, #b320b3);
+  background-image: -o-linear-gradient(top, #d80ce3, #b320b3);
+  background-image: linear-gradient(to bottom, #d80ce3, #b320b3);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  height: 75px;
+  width: 300px;
+  margin-top: 10%;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.home-pitch{
+  margin-bottom: 3%;
+}
+.ligne-bouton-connect{
+  margin-top: 3%;
+}

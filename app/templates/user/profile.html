@@ -1,1 +1,59 @@
-Profile de {{user.email}}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1>Votre profil</h1>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-xs-12">
+        <img class="photo-profil" src="http://via.placeholder.com/140x100">
+      <p><a href="#">changez votre photo</a></p>
+    </div>
+  </div>
+
+  <div class="row text-center profil-area">
+    <div class="col-xs-12">
+      <h2>Présentez vous !!</h2>
+    </div>
+    <div class="col-xs-12">
+      <form class="" method="post">
+        <textarea ng-model="user.acroche" name="textarea" rows="10" cols="80"></textarea>
+      </form>
+    </div>
+  </div>
+
+  <div class="container text-center profil-pref">
+    <div class="row">
+      <div class="col-xs-6">
+        <h2>Recherche</h2>
+      </div>
+      <div class="col-xs-6">
+        <h2>Donnez votre age</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="input-group profil-déroulant">
+          <select ng-model="user.modif" type="text" class="form-control search-profil">
+            <option value="true">Un homme</option>
+            <option value="false">Une femme</option>
+            <option value="none">Les deux</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <input type="number" name="age" id="age" ng-model="user.age" class="form-control hvr-grow input-sm profil-age" required placeholder="age">
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12">
+          <button class="home-bouton hvr-grow" type="button" name="button">Valider</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

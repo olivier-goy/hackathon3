@@ -1,0 +1,18 @@
+.photo-profil{
+  border-radius: 100px 100px 100px 100px;
+}
+.search-profil{
+  width: 5px;
+}
+.profil-age{
+  width: 150px;
+}
+.profil-déroulant{
+  padding-left: 39%;
+}
+.profil-pref{
+  margin-top: 6%;
+}
+.profil-area{
+  margin-top: 3%;
+}

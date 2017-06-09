@@ -38,5 +38,9 @@
   font-size: 35px;
   color: white;
   text-shadow: 0 0 3px black;
-  margin-top: 5%;
+
+}
+
+.login-text-putaclic{
+  margin-top: 7%;
 }
