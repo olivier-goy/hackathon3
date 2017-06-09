@@ -42,5 +42,14 @@
   background-position: center;
 }
 .text-plus{
-  margin-top: 100%;
+  margin-top: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 6%;
+}
+.img-contact{
+  margin-left: 25px;
+}
+.ligne-contact{
+  margin-top: 3%;
 }
