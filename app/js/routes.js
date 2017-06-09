@@ -87,9 +87,9 @@ angular.module('app')
                     'content@': {
                         templateUrl: 'user/webcam.html',
                         controller: 'WebcamController'
+                      }
                     }
-                }
-            })
+                })
             .state('user.profile', {
                 url: '/profile',
                 views: {
