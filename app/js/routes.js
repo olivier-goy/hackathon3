@@ -81,6 +81,15 @@ angular.module('app')
                     }
                 }
             })
+            .state('user.webcam', {
+                url: '/webcam',
+                views: {
+                    'content@': {
+                        templateUrl: 'user/webcam.html',
+                        controller: 'WebcamController'
+                    }
+                }
+            })
             .state('user.profile', {
                 url: '/profile',
                 views: {
