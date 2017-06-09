@@ -3,14 +3,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
-  margin-top: -30px;
+  height: 100vh;
 }
 .text-fond{
   font-size: 50px;
   color: white;
   text-shadow: 0 0 3px pink;
-  margin-top: 10%;
+  margin-top: 25%;
+  margin-bottom: -20%;
 }
 .home-bouton {
   background: #d80ce3;
@@ -45,5 +45,35 @@
   margin-bottom: 3%;
 }
 .ligne-bouton-connect{
-  margin-top: 3%;
+  margin-top: 20%;
+}
+.coeur1{
+  position: absolute;
+  top: 0px;
+  left: 89vw;
+}
+.coeur2{
+  position: absolute;
+  top: 0px;
+  left: 45vw;
+}
+.coeur3{
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+}
+.coeur4{
+  position: absolute;
+  top: 25vh;
+  left: 65vw;
+}
+.coeur5{
+  position: absolute;
+  top: 46vh;
+  left: 60vw;
+}
+.coeur6{
+  position: absolute;
+  top: 46vh;
+  left: 33vw;
 }
