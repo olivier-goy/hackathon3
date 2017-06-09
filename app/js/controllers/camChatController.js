@@ -253,8 +253,8 @@ angular.module('app')
       })();
     // };
 
-    // $timeout(function(){
-    //   $state.go('user.afterDating');
-    // }, 60000);
+    $timeout(function(){
+      $state.go('user.afterDating');
+    }, 60000);
 
   });
