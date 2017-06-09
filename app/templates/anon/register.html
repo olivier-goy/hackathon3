@@ -20,12 +20,19 @@
             <div class="form-group">
               <input type="number" name="age" id="age" ng-model="user.age" class="form-control hvr-grow input-sm" required placeholder="age">
             </div>
+
+
             <!-- Checkox homme ou femme -->
-            <div class="row">
-              <p>Je suis :</p>
+            <div class="row register-petit-margin">
+              <div class="col-xs-6">
+                <p>Je suis :</p>
+              </div>
+              <div class="col-xs-6">
+                <p>Je recherche :</p>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-xs-12">
+            <div class="row register-petit-margin">
+              <div class="col-xs-6">
                 <div class="input-group">
                   <select ng-model="user.genre" type="text" class="form-control">
                     <option value="true">Un homme</option>
@@ -33,14 +40,7 @@
                   </select>
                 </div>
               </div>
-            </div>
-
-            <!-- Je recherche -->
-            <div class="row">
-              <p>Je recherche :</p>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
+              <div class="col-xs-6">
                 <div class="input-group">
                   <select ng-model="user.search" type="text" class="form-control">
                     <option value="true">Un homme</option>
@@ -50,16 +50,24 @@
                 </div>
               </div>
             </div>
-          </div>
 
-            <input ng-click="register()" type="submit" value="Enregistre-Toi !" class="btn btn-info btn-block login-btn-valider" style="background-color:#f922e7">
-          </form>
+            <!-- Je recherche -->
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
         </div>
+
+        <input ng-click="register()" type="submit" value="Enregistre-Toi !" class="btn btn-info btn-block login-btn-valider" style="background-color:#f922e7">
+        </form>
       </div>
     </div>
-    <div class="col-xs-12 text-center">
-      <p class="login-text-putaclic">Inscrivez vous et profitez des meilleurs speed dating de france en illimité !!</p>
-    </div>
   </div>
+  <div class="col-xs-12 text-center">
+    <p class="login-text-putaclic">Inscrivez vous et profitez des meilleurs speed dating de france en illimité !!</p>
+  </div>
+</div>
 
 </div>

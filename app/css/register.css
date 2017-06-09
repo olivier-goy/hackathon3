@@ -4,7 +4,13 @@
 .centered-form{
 	margin-top: 60px;
 }
-
+.register-petit-margin{
+  margin-left: 5%;
+}
+.register-petit-margin-titre{
+  margin-bottom: -5%;
+  margin
+}
 .centered-form .panel{
 	background: rgba(255, 255, 255, 0.5);
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
@@ -37,6 +43,7 @@
 .login-text-putaclic{
   font-size: 35px;
   color: white;
+  font-weight: bold;
   text-shadow: 0 0 3px black;
 
 }
