@@ -19,7 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: -72px;
+
 }
 .login-btn-valider{
   opacity: 0.5;
@@ -43,4 +43,5 @@
 
 .login-text-putaclic{
   margin-top: 7%;
+  font-size: 50px;
 }
