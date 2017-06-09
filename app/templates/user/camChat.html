@@ -1,77 +1,118 @@
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+<!-- My Phone Number & Dial Areas -->
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+<div class="container-fluid leconteneur">
 
-  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-  <!-- My Phone Number & Dial Areas -->
-  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-  <div class="container">
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <!-- Video -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <!-- <div class="col-sm-6"> -->
+  <!-- DISPLAY -->
+  <div class="row">
+    <div class="col-lg-6 text-center">
       <div class="row">
 
-          <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-          <!-- MY PHONE NUMBER -->
-          <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-          <div class="col-sm-6">
-              <div id="my-number-section" class="text-center">
-                  <div id="my-number">LOADING</div>
-                  <div id="my-number-title" class="hidden-sm hidden-xs">
-                      this is <strong>your phone number</strong>
-                  </div>
-                  <div id="my-number-permalink">
-                      <span class="glyphicon glyphicon-link"></span>
-                      call link:
-                      <a id="my-number-link" href="...">https://...</a>
-                  </div>
-              </div>
-              <div id="pubnub-chat-section" class="text-center">
-                  <input id="pubnub-chat-input" type="text" placeholder="chat here">
-                  <div id="pubnub-chat-output"><div></div></div>
-              </div>
-          </div>
 
-          <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-          <!-- Video -->
-          <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-          <div class="col-sm-6">
-              <!-- DISPLAY -->
-              <div class="row">
-                  <div class="col-xs-12 text-center">
-                      <div id="video-border">
-                          <div class="pubnub-relative">
-                              <div id="video-self"></div>
-                          </div>
-                          <div id="video-display">
-                              <span class="glyphicon glyphicon-flash"></span>
-                          </div>
-                      </div>
-                      <div id="pubnub-relative">
-                          <div id="video-thumbnail"></div>
-                          <div id="pubnub-logo">
-                              <div id="pubnub-logo-img"></div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <!-- DIAL CONTROLS -->
-              <div class="row">
-                  <div class="col-sm-6 col-xs-7">
-                      <div class="form-group"><div class="input-group">
-                      <div class="input-group-addon">
-                          <span class="glyphicon glyphicon-th"></span>
-                      </div>
-                      <input id="number" class="form-control" type="number" placeholder="Type Recipient's #">
-                      </div></div>
-                  </div>
-                  <div class="col-sm-6 col-xs-5 dial-buttons">
-                      <button id="dial" class="btn btn-primary">
-                          <span class="glyphicon glyphicon-earphone"></span>
-                      </button>
-                      <button id="snap" class="btn btn-success">
-                          <span class="glyphicon glyphicon-camera"></span>
-                      </button>
-                      <button id="hangup" class="btn btn-danger">
-                          <span class="glyphicon glyphicon-ban-circle"></span>
-                      </button>
-                  </div>
-              </div>
+        <div id="video-border">
+          <div class="pubnub-relative">
+            <div id="video-self"></div>
           </div>
+          <div id="video-display">
+            <span class="glyphicon glyphicon-flash"></span>
+          </div>
+        </div>
+        <div id="pubnub-relative">
+          <div id="video-thumbnail"></div>
+          <!-- <div id="pubnub-logo">
+                            <div id="pubnub-logo-img"></div>
+                        </div> -->
+          <div class="row larodbtn">
+            <div class="col-xs-offset-2 col-xs-4">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                  </div>
+                  <input id="number" class="form-control truc-number" type="number" placeholder="Numero du participant">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 dial-buttons bouton-multi">
+              <button id="dial" class="btn btn-primary">
+            <span class="glyphicon glyphicon-earphone"></span>
+            </button>
+              <button id="snap" class="btn btn-success">
+            <span class="glyphicon glyphicon-camera"></span>
+            </button>
+              <button id="hangup" class="btn btn-danger">
+            <span class="glyphicon glyphicon-ban-circle"></span>
+            </button>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <!-- DIAL CONTROLS -->
+
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <!-- MY PHONE NUMBER -->
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <div class="col-lg-6">
+      <div class="row">
+
+        <div class="col-xs-12">
+          <timer class="timer" countdown="60" interval="1000">
+            <div class="progress progress-striped active {{displayProgressActive}}" style="height: 30px;">
+              Speed-Dating ({{progressBar}}%){{minutes}},{{seconds}}
+              <div class="bar" style="min-width: 2em;width: {{progressBar}}%;"></div>
+            </div>
+          </timer>
+        </div>
+
+        <div class="col-xs-12">
+          <div id="my-number-section" class="text-center">
+            <div id="my-number">LOADING</div>
+            <div id="my-number-title" class="hidden-sm hidden-xs">
+              <strong>Numero utilisateur</strong>
+            </div>
+            <div id="my-number-permalink" style="display: none;">
+              <span class="glyphicon glyphicon-link"></span> call link:
+              <a id="my-number-link" href="...">https://...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div id="pubnub-chat-section" class="text-center">
+            <textarea id="pubnub-chat-input" class="form-control" rows="3" placeholder="Tchat"></textarea>
+            <div id="pubnub-chat-output">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- <input id="pubnub-chat-input" type="text" placeholder="chat here"> -->
+
+
+
+
+
+
+
+
+
+
   </div>
+
+
+
+
+
+  <!-- </div> -->
+  <!-- </div> -->
+
+</div>

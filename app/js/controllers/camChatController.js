@@ -1,5 +1,5 @@
 angular.module('app')
-  .controller('CamChatController', function($scope, CurrentUser) {
+  .controller('CamChatController', function($scope, CurrentUser, $state, $timeout) {
 
     var video_out = document.getElementById("video_out");
 
@@ -252,5 +252,9 @@ angular.module('app')
 
       })();
     // };
+
+    // $timeout(function(){
+    //   $state.go('user.afterDating');
+    // }, 60000);
 
   });
