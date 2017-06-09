@@ -81,15 +81,16 @@ angular.module('app')
                     }
                 }
             })
-            .state('user.webcam', {
-                url: '/webcam',
+            .state('user.camChat', {
+                url: '/camChat',
                 views: {
                     'content@': {
-                        templateUrl: 'user/webcam.html',
-                        controller: 'WebcamController'
-                      }
+                        templateUrl: 'user/camChat.html',
+                        controller: 'CamChatController'
+
                     }
-                })
+                }
+            })
             .state('user.profile', {
                 url: '/profile',
                 views: {
