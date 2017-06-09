@@ -1,4 +1,8 @@
 angular.module('app')
-    .controller('MainUserController', function($scope) {
-      // $scope.timer = {endTime:60};
+    .controller('MainUserController', function($scope, $state) {
+
+      $scope.webcam = function(){
+        $state.go('user.webcam');
+      };
+
     });
