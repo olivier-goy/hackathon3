@@ -10,7 +10,7 @@
   font-size: 50px;
   color: white;
   text-shadow: 0 0 3px pink;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .home-bouton {
   background: #d80ce3;
@@ -43,4 +43,7 @@
 }
 .home-pitch{
   margin-bottom: 3%;
+}
+.ligne-bouton-connect{
+  margin-top: 3%;
 }
